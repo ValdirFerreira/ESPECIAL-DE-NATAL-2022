@@ -1,0 +1,54 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.container-base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-quadrado {
+    width: 800px;
+    background: #e9e9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    padding: 16px;
+}
+
+.quadrado {
+    width: 175px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 4px;
+    color: white;
+    font-family: Verdana;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-quadrado {
+    background: #e05349;
+}
+
+.white-quadrado {
+    background: white;
+}
